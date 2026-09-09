@@ -1,0 +1,11 @@
+[project]
+name = "event-driven-ml-pipeline"
+version = "1.0.0"
+description = "Event-driven stream processing engine for real-time ML inference"
+authors = [{name = "Maharshi Soni"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
