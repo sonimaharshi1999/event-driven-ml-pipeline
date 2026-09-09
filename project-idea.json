@@ -1,0 +1,33 @@
+{
+  "project_name": "event-driven-ml-pipeline",
+  "title": "Event-Driven ML Pipeline - Real-Time Stream Processing",
+  "category": "real-time-ai",
+  "difficulty": "advanced",
+  "description": "Event-driven stream processing for real-time ML inference. Async message broker, windowed aggregation, real-time features, online prediction. No external broker needed.",
+  "tech_stack": [
+    "fastapi",
+    "uvicorn",
+    "scikit-learn",
+    "numpy",
+    "pandas",
+    "pydantic",
+    "pytest"
+  ],
+  "features": [
+    "Async pub/sub broker",
+    "Tumbling and sliding windows",
+    "Real-time feature engineering",
+    "Online prediction",
+    "Dead letter queue",
+    "Monitoring dashboard"
+  ],
+  "test_status": "PASSED",
+  "sample_input": {
+    "description": "Event streams",
+    "example": "python main.py --train && curl localhost:8000/events"
+  },
+  "sample_output": {
+    "description": "Real-time predictions",
+    "example": "{\"event_id\": \"e_123\", \"prediction\": \"anomaly\", \"confidence\": 0.91}"
+  }
+}
