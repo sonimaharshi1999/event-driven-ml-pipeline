@@ -1,0 +1,97 @@
+======================================================================
+  Event-Driven ML Pipeline - Real-Time Stream Processing
+======================================================================
+
+Author: Maharshi Soni
+Category: real-time-ai
+Difficulty: advanced
+
+----------------------------------------------------------------------
+DESCRIPTION
+----------------------------------------------------------------------
+Event-driven stream processing for real-time ML inference. Async message broker, windowed aggregation, real-time features, online prediction. No external broker needed.
+
+----------------------------------------------------------------------
+TECH STACK
+----------------------------------------------------------------------
+  - fastapi
+  - uvicorn
+  - scikit-learn
+  - numpy
+  - pandas
+  - pydantic
+  - pytest
+
+----------------------------------------------------------------------
+FEATURES
+----------------------------------------------------------------------
+  * Async pub/sub broker
+  * Tumbling and sliding windows
+  * Real-time feature engineering
+  * Online prediction
+  * Dead letter queue
+  * Monitoring dashboard
+
+----------------------------------------------------------------------
+SAMPLE INPUT
+----------------------------------------------------------------------
+  Event streams
+
+  Example:
+    python main.py --train && curl localhost:8000/events
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT
+----------------------------------------------------------------------
+  Real-time predictions
+
+  Example:
+    {"event_id": "e_123", "prediction": "anomaly", "confidence": 0.91}
+
+----------------------------------------------------------------------
+PROJECT STRUCTURE
+----------------------------------------------------------------------
+  .gitignore
+  main.py
+  project-idea.json
+  pyproject.toml
+  README.md
+  requirements.txt
+  .github/workflows/test.yml
+  models/model.joblib
+  models/scaler.joblib
+  src/config.py
+  src/synthetic.py
+  src/__init__.py
+  src/api/dashboard.py
+  src/api/__init__.py
+  src/pipeline/broker.py
+  src/pipeline/dead_letter.py
+  src/pipeline/events.py
+  src/pipeline/features.py
+  src/pipeline/predictor.py
+  src/pipeline/replay.py
+  src/pipeline/windows.py
+  src/pipeline/__init__.py
+  tests/conftest.py
+  tests/test_api.py
+  tests/test_broker.py
+  tests/test_dead_letter.py
+  tests/test_events.py
+  tests/test_features.py
+  tests/test_predictor.py
+  tests/test_replay.py
+  tests/test_windows.py
+  tests/__init__.py
+
+----------------------------------------------------------------------
+TEST RESULTS
+----------------------------------------------------------------------
+  Status: PASSED
+  Tests Run: 27
+  Passed: 27
+  Failed: 0
+
+======================================================================
+  Author: Maharshi Soni  |  License: MIT
+======================================================================

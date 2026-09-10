@@ -1,5 +1,7 @@
 # Event-Driven ML Pipeline -- Real-Time Stream Processing
 
+![Tests](https://github.com/sonimaharshi1999/event-driven-ml-pipeline/actions/workflows/test.yml/badge.svg) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 An event-driven stream processing engine for real-time ML inference, built
 entirely in Python with no external message broker.  It implements an
 in-process async pub/sub message broker, windowed aggregation (tumbling and
@@ -231,3 +233,21 @@ event-driven-ml-pipeline/
 ---
 
 *Built as part of Maharshi Soni's AI engineering portfolio.*
+
+
+---
+
+## Sample Input / Output
+
+![Sample Input and Output](assets/io-card.png)
+
+---
+
+## Project Overview
+
+![Project Summary](assets/report-card.png)
+
+### Reports
+- [HTML Report](reports/event-driven-ml-pipeline-report.html) - interactive report
+- [PDF Report](reports/event-driven-ml-pipeline-report.pdf) - downloadable PDF
+- [TXT Report](reports/event-driven-ml-pipeline-report.txt) - plain text
